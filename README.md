@@ -2,10 +2,10 @@
 This is the repository for "*LuxEmbedder: A Cross-Lingual Approach to Enhanced Luxembourgish Sentence Embeddings*", published at [COLING 2025](https://coling2025.org). The paper introduces ***LuxEmbedder***, a cross-lingual Luxembourgish sentence embedding model, as well as ***LuxAlign***, a parallel dataset for Luxembourgish-French and Luxembourgish-English, and ***ParaLux***, a benchmark for Luxembourgish paraphrase detection.
 
 ## 🤖 LuxEmbedder
-Download the pre-trained LuxEmbedder model [here](#) (coming soon).
+Download the pre-trained LuxEmbedder model [here](https://huggingface.co/fredxlpy/LuxEmbedder) (coming soon).
 
 ## 📂 LuxAlign
-The parallel LB-EN & LB-FR data that was used to train LuxEmbedder can be downloaded [here](#) (coming soon).
+The parallel LB-EN & LB-FR data that was used to train LuxEmbedder can be downloaded [here](https://huggingface.co/datasets/fredxlpy/LuxAlign) (coming soon).
 
 #### Examples:
 | Luxembourgish Sentence                                                                                           | English/French Sentence                                                                             |
@@ -17,7 +17,7 @@ The parallel LB-EN & LB-FR data that was used to train LuxEmbedder can be downlo
 
 
 ## 📊 ParaLux
-ParaLux is a Luxembourgish paraphrase detection benchmark and can be downloaded [here](#) (coming soon).
+ParaLux is a Luxembourgish paraphrase detection benchmark and can be downloaded [here](https://huggingface.co/datasets/fredxlpy/ParaLux) (coming soon).
 
 #### Examples:
 | Anchor Sentence                                                                                     | Paraphrase                                                                                 | Not Paraphrase                                                                         |
