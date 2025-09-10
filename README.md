@@ -1,11 +1,11 @@
 # LuxEmbedder
-This is the repository for [*LuxEmbedder: A Cross-Lingual Approach to Enhanced Luxembourgish Sentence Embeddings* (Philippy et al., 2024)](https://doi.org/10.48550/arXiv.2412.03331), accepted at [COLING 2025](https://coling2025.org). The paper introduces ***LuxEmbedder***, a cross-lingual Luxembourgish sentence embedding model, as well as ***LuxAlign***, a parallel dataset for Luxembourgish-French and Luxembourgish-English, and ***ParaLux***, a benchmark for Luxembourgish paraphrase detection.
+This is the repository for [*LuxEmbedder: A Cross-Lingual Approach to Enhanced Luxembourgish Sentence Embeddings* (Philippy et al., 2025)](https://aclanthology.org/2025.coling-main.753/). The paper introduces ***LuxEmbedder***, a cross-lingual Luxembourgish sentence embedding model, as well as ***LuxAlign***, a parallel dataset for Luxembourgish-French and Luxembourgish-English, and ***ParaLux***, a benchmark for Luxembourgish paraphrase detection.
 
 ## 🤖 LuxEmbedder
 Download the pre-trained LuxEmbedder model [here](https://huggingface.co/fredxlpy/LuxEmbedder).
 
 ## 📂 LuxAlign
-The parallel LB-EN & LB-FR data that was used to train LuxEmbedder can be downloaded [here](https://huggingface.co/datasets/fredxlpy/LuxAlign).
+The parallel LB-EN & LB-FR data that was used to train LuxEmbedder can be downloaded [here](https://huggingface.co/datasets/fredxlpy/LuxAlign). The code for reproducing the dataset is available in this repository under the `LuxAlign` folder.
 
 #### Examples:
 | Luxembourgish Sentence                                                                                           | English/French Sentence                                                                             |
@@ -30,19 +30,30 @@ ParaLux is a Luxembourgish paraphrase detection benchmark and can be downloaded 
 ### 📜 Citation
 If you find this paper and repository useful in your research, please cite:
 ```bibtex
-@misc{philippy2024luxembedder,
-      title={LuxEmbedder: A Cross-Lingual Approach to Enhanced Luxembourgish Sentence Embeddings}, 
-      author={Fred Philippy and Siwen Guo and Jacques Klein and Tegawendé F. Bissyandé},
-      year={2024},
-      eprint={2412.03331},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2412.03331}, 
+@inproceedings{philippy-etal-2025-luxembedder,
+    title = "{L}ux{E}mbedder: A Cross-Lingual Approach to Enhanced {L}uxembourgish Sentence Embeddings",
+    author = "Philippy, Fred  and
+      Guo, Siwen  and
+      Klein, Jacques  and
+      Bissyande, Tegawende",
+    editor = "Rambow, Owen  and
+      Wanner, Leo  and
+      Apidianaki, Marianna  and
+      Al-Khalifa, Hend  and
+      Eugenio, Barbara Di  and
+      Schockaert, Steven",
+    booktitle = "Proceedings of the 31st International Conference on Computational Linguistics",
+    month = jan,
+    year = "2025",
+    address = "Abu Dhabi, UAE",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.coling-main.753/",
+    pages = "11369--11379",
 }
 ```
 
 ### 💬 Contact
 For questions or collaboration opportunities, reach out to:
-- Fred Philippy: [fred@zortify.com](mailto:fred@zortify.com)
+- Fred Philippy: [fred.philippy@uni.lu](mailto:fred.philippy@uni.lu)
 
 We would like to express our sincere gratitude to RTL Luxembourg for providing the raw seed data that served as the foundation for this research. Those interested in obtaining this data are encouraged to reach out to [RTL Luxembourg](https://www.rtl.lu) or Mr. Tom Weber via [ai@rtl.lu](mailto:ai@rtl.lu).
