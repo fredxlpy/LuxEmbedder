@@ -4,6 +4,18 @@ This is the repository for [*LuxEmbedder: A Cross-Lingual Approach to Enhanced L
 ## 🤖 LuxEmbedder
 Download the pre-trained LuxEmbedder model [here](https://huggingface.co/fredxlpy/LuxEmbedder).
 
+The script for training the model are available in this repository under the `training` folder, and can be run with the following command:
+```bash
+# Create a virtual environment and install the required dependencies
+conda create -n luxembedder python=3.10 -y
+conda activate luxembedder
+pip install -r requirements.txt
+python training/train.py \
+    --batch_size 16 \
+    --epochs 3 \
+    --learning_rate 1e-6
+```
+
 ## 📂 LuxAlign
 The parallel LB-EN & LB-FR data that was used to train LuxEmbedder can be downloaded [here](https://huggingface.co/datasets/fredxlpy/LuxAlign). The code for reproducing the dataset is available in this repository under the `LuxAlign` folder.
 
