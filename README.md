@@ -10,10 +10,10 @@ The script for training the model are available in this repository under the `tr
 conda create -n luxembedder python=3.10 -y
 conda activate luxembedder
 pip install -r requirements.txt
-python training/train.py \
+python training/train_Luxembedder.py \
     --batch_size 16 \
     --epochs 3 \
-    --learning_rate 1e-6
+    --lr 1e-6
 ```
 
 ## 📂 LuxAlign
